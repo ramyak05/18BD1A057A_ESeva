@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Telangana Covid E-Portal</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="/static/design.css">
+
+</head>
+<body>
+    <img src="/static/logo.jpg">
+    <h1> Welcome to Telangana Online Portal </h1>
+    <h4> E-PASS APPLICATION</h4><br>
+    <div class="w3-container">
+       <form method="POST" action="/login">
+    <div class="w3-container w3-teal">
+  <h3>Applicant's Details:</h3>
+</div>
+    <br><br>
+                        <table>
+                        <tr>
+                        <td><label>First Name: </label></td>
+                        <td><input type="text" name="fname" placeholder="Enter First Name"></td>
+                        </tr>
+                        <tr>
+                        <td><label>Last Name: </label></td>
+                        <td><input type="text" name="lname" placeholder="Enter Last Name"></td>
+                        </tr>
+                        <tr>
+                        <td><label>Email(Mandatory):</label></td>
+                        <td><input type="text" name="mail" placeholder="Enter mail id"></td>
+                        </tr>
+                        <tr>
+                        <td><label>State:</label></td>
+                        <td><input type="text" name="state" placeholder="Enter state"></td>
+                        </tr>
+                        <tr>
+                        <td><label>Source:</label></td>
+                        <td><input type="text" name="source" placeholder="Enter source"></td>
+                        </tr>
+                            <tr>
+                        <td><label>Destination State:</label></td>
+                        <td><input type="text" name="dstate" placeholder="Enter Destination state"></td>
+                        </tr>
+                        <tr>
+                        <td><label>Destination:</label></td>
+                        <td><input type="text" name="destination" placeholder="Enter destination"></td>
+                        </tr>
+                            <tr>
+                            <td><label>Aadhar Number:</label></td>
+                        <td><input type="text" name="aadhar" placeholder="Enter aadhar number"></td>
+                        </tr>
+                        <tr>
+                        <td><label>Telephone:</label></td>
+                        <td><input type="number" name="telephone" placeholder="Enter telephone number"></td>
+                        </tr>
+                            <tr>
+                        <td><label>Date Of Travel:</label></td>
+                        <td><input type="date" name="date"></td>
+                        </tr>
+                        </table>
+                        <br>
+           <div class="w3-container w3-teal">
+                        <h3> Declaration:</h3>
+                        <label style: {color:red;}> By clicking on the Submit Button, I hereby declare that all the information mentioned above is free from error to the best of my knowledge and I bear responsibility for any deviation from them at any later stage. </label>
+           </div><br>
+           <input type="submit" value="Submit"><br>
+                    </form>
+        <br>
+</div>
+</body>
+</html>
